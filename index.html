@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crypto Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Crypto Tracker</h1>
+
+<div class="controls">
+  <input type="text" id="search" placeholder="Search coin...">
+
+  <select id="sort">
+    <option value="">Sort</option>
+    <option value="price">Price</option>
+    <option value="marketcap">Market Cap</option>
+    <option value="name">Name</option>
+  </select>
+
+  <button id="gainers">Top Gainers</button>
+</div>
+
+<p id="loading">Loading...</p>
+
+<div id="coins"></div>
+  <script src="script.js"></script>
+</body>
+</html>
